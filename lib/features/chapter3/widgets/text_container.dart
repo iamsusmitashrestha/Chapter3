@@ -9,13 +9,14 @@ class TextContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: sw(200),
+      height: sw(80),
+      width: sw(195),
       child: Text(
         text!,
         style: TextStyle(
-          color: Color(0XFF0EAD88),
+          color: Colors.white,
           fontWeight: FontWeight.w300,
-          fontSize: 10,
+          fontSize: 11,
         ),
       ),
     );

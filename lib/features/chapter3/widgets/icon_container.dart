@@ -8,7 +8,8 @@ class IconContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: sw(200),
+      width: sw(195),
+      height: sh(80),
       child: child,
     );
   }

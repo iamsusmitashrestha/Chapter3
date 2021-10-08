@@ -44,7 +44,7 @@ class _LearnScreenState extends State<LearnScreen> {
                 children: [
                   Expanded(
                     child: LearnCard(
-                      img: "circ1.png",
+                      img: "circ2.png",
                       text1: "Who helps to",
                       text2: "cope with",
                       text3: "burnout",
@@ -56,7 +56,7 @@ class _LearnScreenState extends State<LearnScreen> {
                   lWidthSpan,
                   Expanded(
                     child: LearnCard(
-                      img: "circ1.png",
+                      img: "circ2.png",
                       text1: "Types of",
                       text2: "specialists",
                       text3: "",
@@ -72,7 +72,7 @@ class _LearnScreenState extends State<LearnScreen> {
                 children: [
                   Expanded(
                     child: LearnCard(
-                      img: "circ1.png",
+                      img: "circ2.png",
                       text1: "Burnout ",
                       text2: "psychotherapy",
                       text3: "and its methods",
@@ -84,7 +84,7 @@ class _LearnScreenState extends State<LearnScreen> {
                   lWidthSpan,
                   Expanded(
                     child: LearnCard(
-                      img: "circ1.png",
+                      img: "circ2.png",
                       text1: "How specialists",
                       text2: "differ and how to",
                       text3: "choose specialist",
@@ -99,7 +99,7 @@ class _LearnScreenState extends State<LearnScreen> {
               Row(
                 children: [
                   LearnCard(
-                    img: "circ1.png",
+                    img: "circ2.png",
                     text1: "How to choose a",
                     text2: "reliable specialist",
                     text3: "",

@@ -2,10 +2,11 @@ import 'package:chapter/common/constants/app_themes.dart';
 import 'package:chapter/common/constants/responsive_dimens.dart';
 import 'package:chapter/common/constants/ui_helpers.dart';
 import 'package:chapter/common/widgets/k_button.dart';
+import 'package:chapter/features/chapter3/screens/congratulation_screen.dart';
 import 'package:chapter/features/chapter3/screens/learn_screen.dart';
 import 'package:flutter/material.dart';
 
-class ChapterThreeStartScreen extends StatelessWidget {
+class NextPlanScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +36,7 @@ class ChapterThreeStartScreen extends StatelessWidget {
                     height: sh(110),
                   ),
                   Text(
-                    "Proffesional Help",
+                    "What's next",
                     style: TextStyle(
                       fontWeight: FontWeight.w900,
                       fontFamily: FONT_FAMILY,
@@ -45,7 +46,7 @@ class ChapterThreeStartScreen extends StatelessWidget {
                   ),
                   lHeightSpan,
                   Text(
-                    "This chapter talks about proffesional help",
+                    'To accept the help of a specialist,',
                     style: TextStyle(
                       fontFamily: FONT_FAMILY,
                       fontSize: fontSizeXXXSmall,
@@ -53,7 +54,7 @@ class ChapterThreeStartScreen extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "for burnout . How to choose a reliable",
+                    "you need to be internally ready for this, but",
                     style: TextStyle(
                       fontFamily: FONT_FAMILY,
                       fontSize: fontSizeXXXSmall,
@@ -61,7 +62,7 @@ class ChapterThreeStartScreen extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "specialist  How specialists differ and how",
+                    "sometimes our beliefs and attitudes can",
                     style: TextStyle(
                       fontFamily: FONT_FAMILY,
                       fontSize: fontSizeXXXSmall,
@@ -69,7 +70,39 @@ class ChapterThreeStartScreen extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "to choose one.",
+                    "get in the way. The next chapter explains",
+                    style: TextStyle(
+                      fontFamily: FONT_FAMILY,
+                      fontSize: fontSizeXXXSmall,
+                      color: Colors.white,
+                    ),
+                  ),
+                  Text(
+                    " why we sometimes sabotage our rest,",
+                    style: TextStyle(
+                      fontFamily: FONT_FAMILY,
+                      fontSize: fontSizeXXXSmall,
+                      color: Colors.white,
+                    ),
+                  ),
+                  Text(
+                    " where anxiety comes from, and why the",
+                    style: TextStyle(
+                      fontFamily: FONT_FAMILY,
+                      fontSize: fontSizeXXXSmall,
+                      color: Colors.white,
+                    ),
+                  ),
+                  Text(
+                    "advice “you need to get out of your",
+                    style: TextStyle(
+                      fontFamily: FONT_FAMILY,
+                      fontSize: fontSizeXXXSmall,
+                      color: Colors.white,
+                    ),
+                  ),
+                  Text(
+                    " comfort zone” can be useful.",
                     style: TextStyle(
                       fontFamily: FONT_FAMILY,
                       fontSize: fontSizeXXXSmall,
@@ -83,8 +116,10 @@ class ChapterThreeStartScreen extends StatelessWidget {
                     child: KButton(
                         child: Text("START"),
                         onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (_) => LearnScreen()));
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (_) => CongratulationScreen()));
                         }),
                   ),
                 ],

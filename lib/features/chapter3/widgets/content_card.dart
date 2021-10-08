@@ -1,7 +1,6 @@
 import 'package:chapter/common/constants/app_themes.dart';
 import 'package:chapter/common/constants/responsive_dimens.dart';
 import 'package:chapter/common/constants/ui_helpers.dart';
-import 'package:chapter/common/widgets/k_card.dart';
 import 'package:flutter/material.dart';
 
 class ContentCard extends StatefulWidget {

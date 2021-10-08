@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
       builder: () => GetMaterialApp(
         debugShowCheckedModeBanner: false,
         locale: DevicePreview.locale(context),
-        builder: DevicePreview.appBuilder, //
+        builder: DevicePreview.appBuilder,
+        //
         theme: ThemeData(
           primaryColor: GREEN,
           fontFamily: FONT_FAMILY,
