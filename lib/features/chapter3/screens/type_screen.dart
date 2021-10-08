@@ -326,7 +326,7 @@ class TypeScreen extends StatelessWidget {
                   mHeightSpan,
                   InkWell(
                     onTap: () {
-                      Get.to(BurnoutScreen());
+                      Get.off(BurnoutScreen());
                     },
                     child: Container(
                       padding: mPadding,

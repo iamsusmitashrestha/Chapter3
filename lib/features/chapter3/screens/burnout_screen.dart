@@ -241,7 +241,7 @@ class BurnoutScreen extends StatelessWidget {
                     mHeightSpan,
                     InkWell(
                       onTap: () {
-                        Get.to(SpecialistScreen());
+                        Get.off(SpecialistScreen());
                       },
                       child: Container(
                         padding: mPadding,

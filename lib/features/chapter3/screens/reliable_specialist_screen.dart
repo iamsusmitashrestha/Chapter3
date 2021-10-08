@@ -121,7 +121,7 @@ class ReliableSpecialistScreen extends StatelessWidget {
                             mHeightSpan,
                             InkWell(
                               onTap: () {
-                                Get.to(NextPlanScreen());
+                                Get.off(NextPlanScreen());
                               },
                               child: Container(
                                 padding: mPadding,

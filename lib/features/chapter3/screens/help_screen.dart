@@ -87,7 +87,7 @@ class HelpScreen extends StatelessWidget {
                     mHeightSpan,
                     InkWell(
                       onTap: () {
-                        Get.to(TypeScreen());
+                        Get.off(TypeScreen());
                       },
                       child: Container(
                         padding: mPadding,

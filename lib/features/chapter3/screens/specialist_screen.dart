@@ -162,7 +162,7 @@ class SpecialistScreen extends StatelessWidget {
                       mHeightSpan,
                       InkWell(
                         onTap: () {
-                          Get.to(ReliableSpecialistScreen());
+                          Get.off(ReliableSpecialistScreen());
                         },
                         child: Container(
                           padding: mPadding,
